@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.Navbar {
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 70px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.link {
+  display: flex;
+  gap: 70px;
+}
+
+.redes {
+  display: flex;
+  gap: 30px;
+}
+
+.categorias {
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  width: 100%;
+  height: 25px;
+}
+
+.item {
+  color: white;
+  text-decoration: none;
+  font-family: Monserrat, sans-serif;
+}
+
+.Item-imagen {
+  height: 400px;
+  width: 280px;
+  transition: 0.3s;
+}
+
+.Item-imagen:hover {
+  scale: 1.05;
+}
+
+.productos {
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.producto {
+  border-bottom: solid 1px rgb(195, 195, 195);
+  font-family: Monserrat, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.producto-imagen {
+  height: 580px;
+}
+
+.producto-detalle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  font-family: Monserrat, sans-serif;
+}
+
+.item-count {
+  display: flex;
+  gap: 25px;
+  font-size: 12px;
+}
+
+.item-count-container {
+  display: flex;
+  gap: 10px;
+}
+
+.agregar-al-carrito {
+  width: 200px;
+}
+
+.menu-link {
+  display: flex;
+  color: white;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.numerito {
+  background-color: red;
+  width: 15px;
+  height: 18px;
+}
